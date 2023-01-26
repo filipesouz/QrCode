@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+--color-primary: White: hsl(0, 0%, 100%);
+--color-secondary: Light gray: hsl(212, 45%, 89%);
+--color-tertiary: Grayish blue: hsl(220, 15%, 55%);
+--color-quaternary: Dark blue: hsl(218, 44%, 22%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v6/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4a0Ew.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+   background-color: hsl(212, 55%, 89%);
+   font-family: 'outfit', sans-serif;
+   font-size: 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container{
+    background-color: white;
+    display: flex;
+    height: 480px;
+    width: 280px;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+ .img1 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 15px;
+
+}
+
+.h3class{
+margin-left: 20px;
+}
+.item{
+    width: 240px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
